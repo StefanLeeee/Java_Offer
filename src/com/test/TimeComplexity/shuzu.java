@@ -1,22 +1,18 @@
-package com.rex.test.TimeComplexity;
+package com.test.TimeComplexity;
 
 /**
  * @author Zhang
- * @date 2021/4/1 13:43
+ * @date 2021/4/1 13:22
  * @description
  */
-import java.util.Arrays;
 
-/**
- * Created by liuyubobobo.
- */
-class MyVector_2<Item> {
+class MyVector<Item> {
 
     private Item[] data;
     private int size;       // 存储数组中的元素个数
     private int capacity;   // 存储数组中可以容纳的最大的元素个数
 
-    public MyVector_2(){
+    public MyVector(){
         data = (Item[])new Object[100];
         size = 0;
         capacity = 100;
@@ -83,3 +79,4 @@ class MyVector_2<Item> {
         }
     }
 }
+

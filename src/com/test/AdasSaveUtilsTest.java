@@ -1,12 +1,5 @@
-package com.rex.test;
+package com.test;
 
-
-import org.junit.Test;
-
-import java.io.UnsupportedEncodingException;
-import java.nio.ByteBuffer;
-import java.nio.CharBuffer;
-import java.nio.charset.Charset;
 
 public class AdasSaveUtilsTest {
 

@@ -1,9 +1,4 @@
-package com.rex.test.Arrays;
-
-import org.junit.Test;
-
-import javax.swing.plaf.ColorUIResource;
-import java.util.Date;
+package com.test.Arrays;
 
 /**
  * @author Zhang

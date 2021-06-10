@@ -1,4 +1,4 @@
-package com.rex.test.Arrays;
+package com.test.Arrays;
 
 /**
  * @author Zhang

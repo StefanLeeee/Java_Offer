@@ -1,4 +1,4 @@
-package com.rex.test;
+package com.test;
 
 
 import java.util.Arrays;

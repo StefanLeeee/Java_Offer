@@ -1,4 +1,4 @@
-package com.rex.test;
+package com.test;
 
 public class SortTest {
     public static void main(String[] args) {

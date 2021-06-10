@@ -1,6 +1,4 @@
-package com.rex.test.Arrays;
-
-import org.junit.Test;
+package com.test.Arrays;
 
 /**
  * @author Zhang

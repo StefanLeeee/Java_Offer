@@ -1,4 +1,4 @@
-package com.rex.test.TimeComplexity;
+package com.test.TimeComplexity;
 
 import org.junit.Test;
 
