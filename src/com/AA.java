@@ -10,12 +10,15 @@ import java.util.function.Consumer;
 public class AA {
     public static void main(String[] args) {
 
-        int num = 10;
-        Consumer<String> consumer = ele -> {
-            System.out.println(num);
-            System.out.println(ele.getClass());
-        };
-        consumer.accept("hhel");
 
+        Integer k = new Integer(300);
+        Integer j = 300;
+
+        System.out.print(k);
+        System.out.print(j);
+
+//        System.out.printf(k == j); //false
+
+        System.out.printf("111asd");
     }
 }
