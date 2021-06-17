@@ -1,4 +1,4 @@
-package com.demo;
+package com.demo.sort;
 
 public class Select_sort {
 //      * 选择排序
