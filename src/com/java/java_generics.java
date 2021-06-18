@@ -23,7 +23,6 @@ public class java_generics {
         add.invoke(list, "adsda");
         System.out.println(list);
 
-
     }
 
     class Generic<T>{
