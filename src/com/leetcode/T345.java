@@ -32,6 +32,8 @@ public class T345 {
         return new String(Char);
     }
 
+    @DemoRex
+
     private static boolean isVowel(char c) {
 
         return c == 'a' || c == 'o' || c == 'e' || c == 'i' || c == 'u' || c == 'A' ||
