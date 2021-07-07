@@ -2,7 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="D:/Rex/MyGitRepo" vcs="Git" />
-    <mapping directory="D:/Rex/MyGitRepo/Java_offer" vcs="Git" />
   </component>
 </project>

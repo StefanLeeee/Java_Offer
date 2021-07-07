@@ -3,6 +3,7 @@ package com.leetcode;
 public class T209 {
     public static int minSubArrayLen(int s, int[] nums) {
         int n = nums.length;
+
         if (n == 0) {
             return 0;
         }
@@ -19,15 +20,6 @@ public class T209 {
         }
         return ans == Integer.MAX_VALUE ? 0 : ans;
     }
-
-
-
-
-
-
-
-
-
 
     public static void main(String[] args) {
         int[] nums = new int[]{1, 4, 4};
