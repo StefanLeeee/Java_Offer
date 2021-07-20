@@ -1,2 +1,2 @@
 # Java_Offer
-## LeetCode刷题之旅
+## Java学习大杂烩
