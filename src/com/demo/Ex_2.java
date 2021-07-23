@@ -7,6 +7,7 @@ public class Ex_2 {
 public static void main(String[] args) {
 
 //    Scanner input = new Scanner(System.in);
+    String 啊 = new String("asd");
     int a,b=1;
     int count=0;
     System.out.println("请输入正整数，输入-1时结束");
