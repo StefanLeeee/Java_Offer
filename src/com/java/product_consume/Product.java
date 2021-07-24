@@ -1,5 +1,7 @@
 package com.java.product_consume;
 
+import javax.xml.bind.SchemaOutputResolver;
+
 /**
  * @author Zhang
  * @date 7/8/2021 6:02 PM
@@ -24,5 +26,23 @@ public class Product {
         System.out.println("+++正在生产第 " + this.product + "个产品");
         notifyAll();
     }
+
+    public synchronized void consume() {
+        if (this.product <= MIN) {
+            try{
+                wait();
+                System.out.println("仓库缺货，请等会在消费");
+            } catch (InterruptedException e) {
+                System.out.println("wait方法异常");
+            }
+            return;
+        }
+        System.out.println("----正在消费第"+this.product+"个产品");
+        this.product--;
+        notifyAll();
+
+    }
+
+
 
 }

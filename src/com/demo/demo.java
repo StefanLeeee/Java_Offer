@@ -6,12 +6,12 @@ import java.util.*;
 public class demo {
     public static void main(String[] args) {
 
-        List list =new LinkedList();
-        Random r=new Random();
-        for (int i=0;i<10;i++){
+        List list = new ArrayList();
+        Random r = new Random();
+        for (int i = 0; i < 10; i++) {
             System.out.println(r.nextInt());
-            int index=r.nextInt(list.size()+1);
-            list.add(index,i);
+            int index = r.nextInt(list.size() + 1);
+            list.add(index, i);
             System.out.println(list.toString());
         }
 
@@ -32,7 +32,6 @@ public class demo {
 
 
     }
-
 
 
 }
