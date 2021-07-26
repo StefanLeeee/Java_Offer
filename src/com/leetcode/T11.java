@@ -3,13 +3,11 @@ package com.leetcode;
 /**
  * @author Zhang
  * @date 6/25/2021 11:00 AM
- * @description
- *  盛最多的水
- *
- *  输入：[1,8,6,2,5,4,8,3,7]
+ * @description 盛最多的水
+ * <p>
+ * 输入：[1,8,6,2,5,4,8,3,7]
  * 输出：49
  * 解释：图中垂直线代表输入数组 [1,8,6,2,5,4,8,3,7]。在此情况下，容器能够容纳水（表示为蓝色部分）的最大值为 49。
- *
  */
 public class T11 {
     public int maxArea(int[] height) {
@@ -26,4 +24,7 @@ public class T11 {
         }
         return ans;
     }
+
+
+
 }
