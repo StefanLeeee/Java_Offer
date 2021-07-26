@@ -10,6 +10,7 @@ public class T209 {
             return 0;
         }
         int ans = Integer.MAX_VALUE;
+
         for (int i = 0; i < n; i++) {
             int sum = 0;
             for (int j = i; j < n; j++) {
