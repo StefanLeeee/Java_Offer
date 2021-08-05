@@ -1,4 +1,6 @@
-package com.leetcode;
+package com.leetcode.array;
+
+import com.leetcode.DemoRex;
 
 /**
  * @author Zhang
