@@ -1,5 +1,8 @@
 package com.test.Arrays;
 
+import java.util.Arrays;
+import java.util.Map;
+
 /**
  * @author Zhang
  * @date 2021/4/14 14:59
@@ -7,6 +10,8 @@ package com.test.Arrays;
  */
 public class SortColors {
     public void sort_Color1(int[] nums) {
+
+
         int[] count = {0, 0, 0};
         for (int i = 0; i < nums.length - 1; i++) {
             assert nums[i] >= 0 && nums[i] <= 2;
