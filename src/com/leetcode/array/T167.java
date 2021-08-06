@@ -1,4 +1,4 @@
-package com.leetcode;
+package com.leetcode.array;
 
 import com.sun.jmx.snmp.SnmpUnknownMsgProcModelException;
 
@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.EnumSet;
 import java.util.HashMap;
 
-//import static com.leetcode.T167.T167_1.twoSum;
+//import static com.leetcode.array.T167.T167_1.twoSum;
 
 /**
  * @author Zhang
