@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Java_Offer.iml" filepath="$PROJECT_DIR$/Java_Offer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_muti_program/Java_muti_program.iml" filepath="$PROJECT_DIR$/Java_muti_program/Java_muti_program.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java并发编程/Java并发编程.iml" filepath="$PROJECT_DIR$/Java并发编程/Java并发编程.iml" />
     </modules>
   </component>
