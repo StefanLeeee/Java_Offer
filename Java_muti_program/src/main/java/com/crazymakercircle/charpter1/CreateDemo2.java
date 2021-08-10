@@ -3,6 +3,9 @@ package com.crazymakercircle.charpter1;
 import com.crazymakercircle.util.Print;
 import com.crazymakercircle.util.ThreadUtil;
 
+/**
+ * 继承Runnable接口，重写run方法实现多线程
+ */
 public class CreateDemo2 {
     public static final int MAX_TURN = 5;
     static int threadNo = 1;

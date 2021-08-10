@@ -38,6 +38,7 @@ public class CreateDemo3 {
         FutureTask<Long> futureTask = new FutureTask<Long>(task);// ④
         Thread thread = new Thread(futureTask, "returnableThread");// ⑤
         thread.start();// ⑥
+
         Thread.sleep(500);
         Print.cfo(getCurThreadName() + " 让子弹飞一会儿");
         Print.cfo(getCurThreadName() + " 做一点自己的事情");

@@ -24,7 +24,6 @@ public class CreateDemo2_Lambda {
             }, "RunnableThread " + threadNo++
             );
             thread.start();
-
         }
         Print.cfo(getCurThreadName()+"运行结束！！！");
     }

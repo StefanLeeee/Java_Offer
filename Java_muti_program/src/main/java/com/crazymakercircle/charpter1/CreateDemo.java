@@ -2,6 +2,9 @@ package com.crazymakercircle.charpter1;
 
 import com.crazymakercircle.util.Print;
 
+/**
+ * 继承Thread类实现多线程
+ */
 public class CreateDemo {
     public static final int MAX_TURN = 5;
     public static String getCurThreadName() {
@@ -22,7 +25,6 @@ public class CreateDemo {
             }
             Print.cfo(getName() + "运行结束。");
         }
-
     }
 
     public static void main(String[] args) {
