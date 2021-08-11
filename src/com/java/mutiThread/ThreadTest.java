@@ -1,4 +1,4 @@
-package com.shangguigu.java.mutiThread;
+package com.java.mutiThread;
 /**
  * @author Zhang
  * @date 5/12/2021 1:27 PM

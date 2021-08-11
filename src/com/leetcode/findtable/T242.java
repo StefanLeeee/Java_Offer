@@ -1,5 +1,8 @@
 package com.leetcode.findtable;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 /**
  * @author Zhang
  * @date 8/10/2021 6:14 PM
@@ -13,7 +16,20 @@ package com.leetcode.findtable;
  * 输出: false
  */
 public class T242 {
-    public boolean isAnagram(String s, String t) {
-        return false;
+    public static boolean isAnagram(String s, String t) {
+        if (s.length() != t.length()) {
+            return false;
+        }
+        char[] s1 = s.toCharArray();
+        char[] s2 = t.toCharArray();
+        Arrays.sort(s1);
+        Arrays.sort(s2);
+        return Arrays.equals(s1, s2);
+    }
+
+    public static void main(String[] args) {
+        String s = "adajn";
+        String t = "ajnad";
+        System.out.println(isAnagram(s, t));
     }
 }
