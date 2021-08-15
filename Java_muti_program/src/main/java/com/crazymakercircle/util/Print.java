@@ -101,7 +101,6 @@ public class Print
         //提交线程池进行独立输出，使得输出不影响当前线程的执行
         ThreadUtil.seqExecute(() ->
         {
-
             System.out.println(cft + "：" + s);
 
         });
@@ -126,9 +125,6 @@ public class Print
         String nextLine = sc.nextLine();  //读取字符串型输入
         return nextLine;
     }
-
-
-
 }
 
 
