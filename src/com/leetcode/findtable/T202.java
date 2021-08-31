@@ -15,7 +15,7 @@ import java.util.Set;
  * 如果 n 是快乐数就返回 true ；不是，则返回 false 。
  */
 public class T202 {
-    class Solution {
+    static class Solution {
         private int getNext(int n) {
             int totalSum = 0;
             while (n > 0) {
@@ -33,6 +33,11 @@ public class T202 {
             }
             return n == 1;
         }
+    }
+
+    public static void main(String[] args) {
+        boolean happy = new Solution().isHappy(189234);
+        System.out.println(happy);
     }
 
 }
