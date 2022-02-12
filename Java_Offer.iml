@@ -22,11 +22,11 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Java/尚硅谷Java课件/Eclipse、IDEA通用配置/IDEA快捷键通用设置/shkstart.jar!/" />
+          <root url="jar://$USER_HOME$/Java/尚硅谷Java课件/Eclipse、IDEA通用配置/IDEA快捷键通用设置/shkstart.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
-        <jarDirectory url="jar://$MODULE_DIR$/../../Java/尚硅谷Java课件/Eclipse、IDEA通用配置/IDEA快捷键通用设置/shkstart.jar!/" recursive="false" />
+        <jarDirectory url="jar://$USER_HOME$/Java/尚硅谷Java课件/Eclipse、IDEA通用配置/IDEA快捷键通用设置/shkstart.jar!/" recursive="false" />
       </library>
     </orderEntry>
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-log4j12:1.7.9" level="project" />
@@ -35,6 +35,6 @@
     <orderEntry type="library" name="Maven: junit:junit:4.11" level="project" />
     <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.32" level="project" />
-    <orderEntry type="library" name="Maven: org.jetbrains:annotations:22.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains:annotations:23.0.0" level="project" />
   </component>
 </module>

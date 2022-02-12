@@ -10,7 +10,6 @@ public class CreateDemo {
     public static String getCurThreadName() {
         return Thread.currentThread().getName();
     }
-
     //线程编号
     static int threadNo = 1;
 
