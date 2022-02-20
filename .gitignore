@@ -1,2 +1,17 @@
 # Project exclude paths
 /out/
+**/target/
+**/logs/
+logs/
+*/classes/
+*.iml
+.idea
+.classpath
+.project
+.settings
+.factorypath
+*/src/main/resources/application.properties
+META-INF/
+.vscode/
+*.DS_Store
+/data
